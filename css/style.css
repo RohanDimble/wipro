@@ -1,0 +1,471 @@
+body{
+    font-family: 'HankenGroteskRegular';
+    font-size:14px;
+    line-height: 1.5;
+    font-weight:'regular';
+}
+
+a{
+    text-decoration:none !important;
+    color:inherit;
+}
+
+.container{
+    max-width:960px;
+}
+
+.material-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+}
+/*========= search Box ======*/
+
+form{
+    padding:14px 30px 0 0; 
+}
+
+.form-control{
+    position: relative;
+    width: 345px;
+    height:28px;
+    border-radius:0;
+}
+
+.form-control:focus{
+    box-shadow:none;
+}
+
+.search-1{
+    position: absolute;
+    z-index:999;
+    top:15px;
+    right:240px;
+}
+
+form .fa{
+    color:#ffffff;
+    font-size:11px;
+    padding:8px 14px;
+    border-radius:15px;
+    background:#1641af;
+}
+
+/*========= header =========*/
+
+.navbar-brand{
+    color:#333 !important;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    color:#303030 !important;
+    z-index:999;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right:30px;
+    font-size:16px;
+    color:#303030;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color:#FD9C2D;
+}
+
+/*========= jumbotron =========*/
+
+.jumbotron{
+    padding-top:60px !important;
+    background:#ffffff;
+}
+
+.jumbotron h2{
+    font-size:40px;
+    color:#33475c;
+    font-weight:100px;
+    padding:20px 0;
+    margin:0;
+}
+
+.jumbotron p{
+    width:67%;
+    font-size:17px; 
+    color:#555555;
+    margin:0;
+    padding-bottom:20px;   
+}
+
+.jumbotron .btn-primary{
+    background:linear-gradient(#f56116,#fa8813);
+    border-radius:30px;
+    border:none;
+    padding:13px 25px;   
+}
+
+.jumbotron .btn-primary:focus, .btn-primary:hover{
+    box-shadow:none;
+}
+
+.highlight{
+    color:#33475c;
+    font-weight:bold;
+}
+
+/*========= we are =========*/
+
+.we-are{
+    color:#ffffff;
+    padding:62px 0 78px 0;
+    background:#1641af;
+    text-align:center;
+}
+
+.we-are .highlight{
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.we-are h2{
+    margin-bottom:0;
+    padding-bottom:36px;
+    font-weight:lighter;
+}
+
+.we-are p{
+    width:69% !important;
+    margin:auto;
+}
+
+/*========= carousel =========*/
+
+.carousel{
+    padding:36px 0 66px 0;
+}
+
+.carousel-indicators li{
+    display:none;
+    background:#303030;
+}
+
+.btns{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+}
+
+.btns a{
+    display: block;
+}
+
+.prev{
+    float: left;
+    padding-left:132px;
+}
+
+.next{
+    padding-right:132px;
+    float: right;
+}
+
+.btns .fa{
+    color:#c6c6c6;
+    font-size:55px;
+ }
+
+.success h2{
+    text-align:center;
+    margin-bottom:0;
+    color:#33475c;
+    padding-bottom:56px;
+}
+
+.caption p{
+    margin-bottom:0;
+    padding-bottom:47px;
+    color:#333 !important;
+}
+
+.caption h3{
+    width:55%;
+    padding:32px 0 21px 0;
+    color:#33475c;
+    font-weight:medium;
+    margin-bottom:0;
+    font-size:17px;
+}
+
+.caption .btn-primary{
+    background:#ffffff;
+    padding:9px 16px;
+    color:#333;
+    border:1px solid #e3e3e3;
+}
+
+.caption .btn-primary:focus, .btn-primary:hover{
+    background:linear-gradient(#f56116,#fa8813);
+    color:#ffff;
+    box-shadow:none;
+}
+
+/*========= think =========*/
+
+.think{
+    background:#f5f7fa;
+}
+
+.think .btn-primary{
+    margin-bottom:69px;
+}
+
+.human{
+    padding:65px 0 80px 0;
+}
+
+.caption-1 h2{
+    color:#33475c;
+    display:inline-block;
+    margin-bottom:0;
+    padding-bottom:28px;
+}
+
+.caption-1 h3{
+    width:79%;
+    font-size:17px;
+    font-weight:medium;
+    color:#33475c;
+    display:inline-block;
+    margin-bottom:0;
+    padding-top:32px;
+    padding-bottom:24px;
+}
+
+.caption-1 p{
+    padding-bottom:20px;
+    margin:0;
+}
+
+.caption-1 .btn-primary{
+    background:#ffffff;
+    padding:9px 16px;
+    color:#333;
+    border:1px solid #e3e3e3;
+}
+
+/*========= social =========*/
+
+.social{
+    padding:60px 0 111px 0;
+}
+
+.social .fa{
+    font-size:35px;
+}
+
+.icon-fa{
+    padding-right:40px !important;
+}
+
+.caption-3 h3{
+    font-size:17px;
+    margin-bottom:0;
+    color:#2e2e2e !important;
+    padding-top:8px;
+    padding-bottom:20px;
+} 
+.caption-3 p{
+    font-size:12px;
+    padding-bottom:20px;
+} 
+
+.caption-3 .btn-primary{
+    background:#ffffff;
+    padding:9px 16px;
+    color:#333;
+    border:1px solid #e3e3e3;
+}
+
+.caption-3 .btn-primary:focus, .btn-primary:hover{
+    background:linear-gradient(#f56116,#fa8813);
+    color:#ffff;
+    box-shadow:none;
+}
+
+/*========= services =========*/
+
+.service{
+    background:#212a40;
+    padding:49px 0 75px 0;
+}
+.service h4{
+    font-size:14px;
+    margin-bottom:0;
+    font-weight:medium;
+    padding-bottom:20px;
+    color:#ffffff;
+}
+.service p{
+    font-size:12px;
+    margin-bottom:0;
+    color:#9095a0;
+    padding-bottom:38px;
+}
+
+.service .logo{
+    padding-bottom:24px !important;
+}
+
+
+/*========= smart phones =========*/
+
+@media(min-width:320px) and (max-width:767px){
+
+/*========= search Box ======*/
+
+form{
+    padding:10px 0 0 10px;
+}
+
+.form-control{
+    width: 300px;
+}
+
+.search-1{
+    position: absolute;
+    z-index:999;
+    top:10px;
+    right:15px;
+}
+
+form .fa{
+    padding:8px 14px;
+}
+
+     /*========== header =========*/
+
+     .navbar-dark .navbar-toggler-icon{
+        background-color:#5C5C5C !important;
+     }
+
+    /*========== jumbotron =========*/
+
+    .jumbotron{
+        padding-top:10px !important;
+    }
+
+    .jumbotron img{
+        display:none;
+    }
+
+    /*========= we-are =========*/
+
+    .we-are{
+        padding:0;
+    }
+
+    .we-are h2{
+        padding:20px 0;
+    }
+    
+    .we-are p{
+        width:100% !important;
+        padding-bottom:15px;
+    }
+
+    /*========= carousel =========*/
+
+.carousel{
+    padding-bottom:25px;
+} 
+
+.btns{
+    top: 90% !important;
+}
+
+.caption .btn-primary{
+     margin-bottom:20px;
+}
+
+.caption p{
+    padding-bottom:30px;
+}
+
+.caption h3{
+     width:100%;
+    padding:25px 0 15px 0;
+}
+
+.carousel-item .row{
+    flex-direction:column;
+}
+
+.carousel-item-2{
+    position: relative;
+    display: none;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    z-index:999;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item-2 .active{
+        display: block;
+        transition: -webkit-transform .6s ease;
+        transition: transform .6s ease;
+        transition: transform .6s ease,-webkit-transform .6s ease;
+}
+
+/*========= think =========*/
+
+.caption-1 h2{
+    padding-top:20px;
+}
+
+.caption-3 .btn-primary{
+  margin-bottom:20px;
+}
+
+}
+
+/*========= tab =========*/
+
+@media(min-width:767px) and (max-width:960px){
+
+    /*========== header =========*/
+
+       .bg-white{
+        background:#70A3F6 !important;
+    }
+
+    /*========== jumbotron =========*/
+
+    .jumbotron{
+        padding-top:10px !important;
+    }
+    
+    .jumbotron p{
+        margin-right:10px !important;
+    }
+
+    .jumbotron img{
+        padding-top:50px !important;
+    }
+
+    /*========= we-are =========*/
+
+    .we-are{
+        padding:0 5px;
+    }
+
+    .we-are h2{
+        padding:20px 0;
+    }
+    
+    .we-are p{
+        margin-bottom:0;
+    }
+}
